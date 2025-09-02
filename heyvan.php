@@ -1,5 +1,5 @@
 <?php
-class Animal {
+class Heyvan {
     public $name;
 
     public function __construct($name) {
