@@ -1,9 +1,9 @@
 <?php
-include 'It.php';
-include 'Pisik.php';
+include 'dog.php';
+include 'cat.php';
 
-$it = new It("Rex");
-$pisik = new Pisik("Mestan");
+$it = new Dog("Rex");
+$pisik = new Cat("Mestan");
 
 echo $it->seseVer() . "<br>";
 echo $it->elaveFunksiya() . "<br>";
