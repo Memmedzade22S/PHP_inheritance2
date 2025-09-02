@@ -1,7 +1,7 @@
 <?php
-include 'Animal.php';
+include 'heyvan.php';
 
-class cat extends Animal {
+class cat extends heyvan {
     public function elaveFunksiya() {
         return $this->name . " sakit dolaşır!";
     }
