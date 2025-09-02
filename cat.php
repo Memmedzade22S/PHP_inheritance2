@@ -1,8 +1,8 @@
 <?php
-include 'Heyvan.php';
+include 'Animal.php';
 
-class cat extends Heyvan {
+class cat extends Animal {
     public function elaveFunksiya() {
-        return $this->ad . " sakit dolaşır!";
+        return $this->name . " sakit dolaşır!";
     }
 }
