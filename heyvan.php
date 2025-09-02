@@ -1,12 +1,12 @@
 <?php
-class Heyvan {
-    public $ad;
+class Animal {
+    public $name;
 
-    public function __construct($ad) {
-        $this->ad = $ad;
+    public function __construct($name) {
+        $this->name = $name;
     }
 
     public function seseVer() {
-        return $this->ad . " səs çıxarır!";
+        return $this->name . " səs çıxarır!";
     }
 }
